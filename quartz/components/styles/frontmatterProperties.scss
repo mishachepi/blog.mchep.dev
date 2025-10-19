@@ -1,0 +1,38 @@
+.frontmatter-properties {
+  margin: 0.5rem 0;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+
+  .property-item {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+    .property-key {
+      color: var(--gray);
+      font-weight: 500;
+    }
+
+    .property-value {
+      color: var(--darkgray);
+      
+      a.internal {
+        color: var(--secondary);
+        text-decoration: none;
+        font-weight: 500;
+        
+        &:hover {
+          color: var(--tertiary);
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 600px) {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
