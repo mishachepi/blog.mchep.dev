@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "blog.mchep.dev",
+    pageTitle: "notes.mchep.dev",
     pageTitleSuffix: " mchep.dev",
     enableSPA: true,
     enablePopovers: true,
@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     //   provider: "plausible",
     // },
     locale: "en-US",
-    baseUrl: "blog.mchep.dev",
+    baseUrl: "notes.mchep.dev",
     ignorePatterns: ["private", "templates", ".git", "**/.git", "**/.git/**"],
     defaultDateType: "modified",
     theme: {
