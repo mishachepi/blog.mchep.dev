@@ -8,8 +8,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/mishachepi",
+      Linkedin: "https://www.linkedin.com/in/mikhail-chepkin",
     },
   }),
 }
@@ -23,7 +23,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ArticleTitle(),
     Component.FrontmatterProperties({
-      properties: ["area", "progress"]
+      properties: ["area", "project", "progress"]
     }),
     Component.ContentMeta(),
     Component.TagList(),

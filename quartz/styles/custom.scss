@@ -1,3 +1,30 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Simple, clean link styling
+a {
+  color: var(--dark) !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid var(--lightgray);
+  transition: all 0.2s ease;
+  
+  &:hover {
+    color: var(--secondary) !important;
+    border-bottom-color: var(--secondary) !important;
+  }
+}
+
+// Internal links
+.internal {
+  color: var(--dark) !important;
+  
+  &:hover {
+    color: var(--secondary) !important;
+  }
+}
+
+// Current page in Explorer (left menu) - use more specific selector
+.explorer .explorer-content ul li > a.active {
+  color: var(--secondary) !important;
+  font-weight: 600 !important;
+  border-bottom: none !important;
+}
