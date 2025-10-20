@@ -1,4 +1,5 @@
 ---
+title: "Digital Garden"
 publish: true
 ---
 
