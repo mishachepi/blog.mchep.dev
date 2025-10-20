@@ -8,15 +8,15 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "notes.mchep.dev",
-    pageTitleSuffix: " mchep.dev",
-    enableSPA: true,
+    pageTitle: "🙈",
+    pageTitleSuffix: " | mchep.dev",
+    enableSPA: false,
     enablePopovers: true,
     // analytics: {
     //   provider: "plausible",
     // },
     locale: "en-US",
-    baseUrl: "notes.mchep.dev",
+    baseUrl: "blog.mchep.dev",
     ignorePatterns: ["private", "templates", ".git", "**/.git", "**/.git/**"],
     defaultDateType: "modified",
     theme: {
