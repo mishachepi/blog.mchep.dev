@@ -25,7 +25,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.FrontmatterProperties({
       properties: ["area", "project", "progress"]
     }),
-    Component.ContentMeta(),
+    Component.ContentMeta({
+      showReadingTime: false,
+    }),
     Component.TagList(),
   ],
   left: [
@@ -38,7 +40,7 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
+        // { Component: Component.ReaderMode() },
       ],
     }),
     Component.Explorer(),

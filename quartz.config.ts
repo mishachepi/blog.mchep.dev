@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🏔️ quartz notes\nmchep.dev 🌳",
+    pageTitle: "🌳 quartz notes\nmchep.dev 🏔️",
     pageTitleSuffix: " | mchep.dev",
     enableSPA: false,
     enablePopovers: true,
@@ -57,9 +57,9 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
-      Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "git", "filesystem"],
-      }),
+      // Plugin.CreatedModifiedDate({
+      //   priority: ["frontmatter", "git", "filesystem"],
+      // }),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
@@ -72,7 +72,7 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
+      // Plugin.Latex({ renderEngine: "katex" }),
     ],
     filters: [Plugin.ExplicitPublish()],
     emitters: [

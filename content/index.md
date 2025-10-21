@@ -1,8 +1,7 @@
 ---
-title: "Digital Garden"
+title: "Navigation 🌿"
 publish: true
 ---
 
-# Welcome to my digital garden!
-
-This is the landing page of my notes.
+## [[Areas]]
+## [[Projects]]
