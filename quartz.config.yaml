@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: "🌳 quartz notes\nmchep.dev 🏔️"
+  pageTitle: "🌳 notes mchep.dev"
   pageTitleSuffix: " | mchep.dev"
   enableSPA: true
   enablePopovers: true
