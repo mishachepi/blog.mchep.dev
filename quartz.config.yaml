@@ -2,7 +2,7 @@
 configuration:
   pageTitle: "🌳 quartz notes\nmchep.dev 🏔️"
   pageTitleSuffix: " | mchep.dev"
-  enableSPA: false
+  enableSPA: true
   enablePopovers: true
   locale: en-US
   baseUrl: notes.mchep.dev
@@ -30,7 +30,8 @@ configuration:
         dark: "#000000"
         secondary: "#00cc00"
         tertiary: "#009900"
-        textHighlight: "#00cc0044"
+        highlight: rgba(0, 204, 0, 0.08)
+        textHighlight: "#40a02b33"
       darkMode:
         light: "#121212"
         lightgray: rgba(255, 255, 255, 0.15)
@@ -39,7 +40,8 @@ configuration:
         dark: "#f8f8f8"
         secondary: "#00cc00"
         tertiary: "#009900"
-        textHighlight: "#00cc0044"
+        highlight: rgba(0, 204, 0, 0.12)
+        textHighlight: "#a6e3a133"
 plugins:
   # === Transformers ===
   - source: github:quartz-community/syntax-highlighting
@@ -217,6 +219,12 @@ plugins:
     layout:
       position: right
       priority: 10
+  - source: github:quartz-community/table-of-contents
+    enabled: true
+    layout:
+      position: right
+      priority: 20
+      display: desktop-only
   - source: github:quartz-community/backlinks
     enabled: true
     layout:
