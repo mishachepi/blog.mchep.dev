@@ -29,3 +29,12 @@ a {
   font-weight: 600 !important;
   border-bottom: none !important;
 }
+
+// Footer — align right, hide "Created with Quartz" text
+footer {
+  text-align: right;
+
+  & > p {
+    display: none;
+  }
+}

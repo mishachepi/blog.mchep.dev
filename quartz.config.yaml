@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: "🌳 notes mchep.dev"
+  pageTitle: "notes.mchep.dev"
   pageTitleSuffix: " | mchep.dev"
   enableSPA: true
   enablePopovers: true
@@ -33,7 +33,7 @@ configuration:
         highlight: rgba(0, 204, 0, 0.08)
         textHighlight: "#40a02b33"
       darkMode:
-        light: "#121212"
+        light: "#0a0a0a"
         lightgray: rgba(255, 255, 255, 0.15)
         gray: rgba(255, 255, 255, 0.5)
         darkgray: rgba(255, 255, 255, 0.8)
