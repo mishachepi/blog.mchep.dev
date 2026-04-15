@@ -15,7 +15,7 @@ configuration:
   defaultDateType: modified
   theme:
     fontOrigin: googleFonts
-    cdnCaching: true
+    cdnCaching: false
     typography:
       title: Inconsolata
       header: Inconsolata
@@ -193,8 +193,7 @@ plugins:
       includeAll: false
       includedProperties:
         - area
-        - project
-        - progress
+        - description
       excludedProperties: []
       hidePropertiesView: false
     order: 5
