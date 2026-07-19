@@ -133,7 +133,7 @@ plugins:
       priority: 100
       display: all
   - source: github:quartz-community/stacked-pages
-    enabled: true
+    enabled: false
     layout:
       position: afterBody
       priority: 50
@@ -176,6 +176,7 @@ plugins:
     layout:
       position: left
       priority: 50
+      display: desktop-only
   - source: github:quartz-community/breadcrumbs
     enabled: true
     layout:
